@@ -1,0 +1,152 @@
+* {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li {
+    display: inline-block;
+    padding: 0px 75px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+}
+
+/* BANNER */
+
+.banner {
+    background-color: forestgreen;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.titulo {
+    color: white;
+    font-family: "Goudy Old Style";
+    text-align: center;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 30px;
+}
+.subtitulo {
+        color: white;
+        font-family: "Century Gothic";
+        text-align: center;
+        font-weight: 100;
+        font-size: 24px;
+        line-height: 10px;
+}
+.comentarios {
+    font-style: normal;
+    font-family: "Goudy Old Style";
+}
+#logo {
+    height: 350px;
+    padding-top: 40px;
+}
+
+/* MAIN */
+
+.informacion {
+    padding: 50px 50px;
+}
+.informacion li, .informacion p, .informacion form {
+    font-family: "Century Gothic";
+    padding-left: 20px;
+    font-size: 16px;
+    color: black;
+}
+.informacion a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.encabezado {
+    font-family: "Goudy Old Style";
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+    color: forestgreen;
+}
+.textos {
+    padding-top: 10px;
+}
+
+/* Contacto */
+#igfb ul {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+.avatar1 {
+    background-image: url(../images/Instagram-icon-green-01.png);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.avatar2 {
+    background-image: url(../images/Facebook-icon-green-01.png);
+    background-size: cover;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: forestgreen;
+    position: static;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+.footer li {
+    display: inline-block;
+    padding: 30px 125px;
+    vertical-align: middle;
+}
+.footer a {
+    text-decoration: none;
+    color:white;
+    font-family: "Century Gothic";
+}
+#contacto-footer {
+    font-family: "Century Gothic";
+    color: white;
+}
+.avatar1b {
+    background-image: url(../images/Instagram-icon-white-01.png);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.avatar2b {
+    background-image: url(../images/Facebook-icon-white-01-01.png);
+    background-size: cover;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
